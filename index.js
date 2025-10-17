@@ -1,5 +1,5 @@
-let value = 100; 
-let goal = 1000; 
+let value = 4184; 
+let goal = 8000; 
 let label = "На работу \"Искры\"";
 
 
@@ -8,6 +8,7 @@ let percentage = value / goal * 100;
 if (percentage > 100) {
   percentage = 100;
 }
+
 
 document.addEventListener("DOMContentLoaded", () => {
   let inner = document.getElementById("progress-bar_inner");
