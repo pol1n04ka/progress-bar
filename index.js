@@ -1,6 +1,6 @@
 let value = 4184; 
 let goal = 8000; 
-let label = "На работу \"Искры\"";
+let label = "На работу «Искры»";
 
 
 let percentage = value / goal * 100;
