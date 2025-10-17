@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="index.js"></script>
+  <style>
+    #widget {
+      width: 1850px;
+      height: 160px;
+    }
+
+    #progress-bar_container {
+      margin: 30px;
+      height: 40px;
+      width: 1790px;
+    }
+
+    #progress-bar_outer {
+      height: 100%;
+      width: 100%;
+      border-radius: 20px;
+      background-color: rgb(161, 47, 167);
+      box-shadow: 0px 0px 35px rgb(249, 159, 254);
+    }
+
+    #progress-bar_inner {
+      height: 100%;
+      width: 40%;
+      border-radius: 20px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0px 0px 35px rgb(255, 255, 255);
+      /* transition: 1s; */
+    }
+
+    #label-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 30px 80px;
+    }
+
+    .label {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 35px;
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Default values: width 1850px, height 160px -->
+  <div id="widget">
+    <div id="progress-bar_container">
+      <div id="progress-bar_outer">
+        <div id="progress-bar_inner">
+        </div>
+      </div>
+    </div>
+    <div id="label-container">
+      <div id="progress-bar_label" class="label">На работу "Искры"</div>
+      <div id="progress-bar_value" class="label">€1000 / €8000</div>
+    </div>
+  </div>
+</body>
+
+</html>
